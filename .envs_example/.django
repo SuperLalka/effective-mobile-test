@@ -1,0 +1,6 @@
+# Django
+# ------------------------------------------------------------------------------
+DJANGO_SITE_URL=http://localhost:80
+DJANGO_SITE_DOMAIN=localhost:80
+DJANGO_SITE_SCHEME=http://
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1

@@ -1,0 +1,182 @@
+[
+  {
+    "model": "ads.ad",
+    "pk": 1,
+    "fields": {
+      "title": "Монета 1 талер 1859 год",
+      "description": "Монета 1 талер 1859 год. Королевство Пруссия. Фридрих Вильгельм IV. Редкий 94000 экземпляров.",
+      "image_url": "https://s5-gallery.aystatic.by/650/518/849/5038/5038849518_0.jpg",
+      "category": "Нумизматика",
+      "condition": "III (Коллекционное, VF)",
+      "created_at": "2025-04-04T11:43:54.760Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 2,
+    "fields": {
+      "title": "Монета Денарий Адриана",
+      "description": "Монета Денарий Адриан ??? (117-138) Римская Империя Серебро",
+      "image_url": "https://s1-gallery.aystatic.by/650/500/873/5038/5038873500_0.jpg",
+      "category": "Нумизматика",
+      "condition": "III (Коллекционное, VF)",
+      "created_at": "2025-04-04T11:49:10.614Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 3,
+    "fields": {
+      "title": "Сестерций Филиппа",
+      "description": "Сестерций цезаря Филиппа II 244-247г (RIC 256a, Cohen 49)",
+      "image_url": "https://s5-gallery.aystatic.by/650/988/753/5038/5038753988_0.jpg",
+      "category": "Нумизматика",
+      "condition": "III (Коллекционное, VF)",
+      "created_at": "2025-04-04T11:55:12.580Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 4,
+    "fields": {
+      "title": "10 копеек 1804г.",
+      "description": "10 копеек 1804г. СПБ ФГ",
+      "image_url": "https://s1-gallery.aystatic.by/650/461/856/5038/5038856461_1.jpg",
+      "category": "Нумизматика",
+      "condition": "II (Эстетическое, XF)",
+      "created_at": "2025-04-04T11:58:41.716Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 5,
+    "fields": {
+      "title": "Часы Кировские АУ 583, 1958г., милитари",
+      "description": "Часы не носились, в родной  коробке и с паспортом, декабрь 1958г., на хорошем ходу, не вскрывались, без царапин  и следов небрежного хранения. Стиль милитари. Все вопросы по телефону.  Выставлены только 5 дней.",
+      "image_url": "https://s4-gallery.aystatic.by/650/26/861/5038/5038861026_0.jpg",
+      "category": "Часы наручные",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:01:42.879Z",
+      "user": 3
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 6,
+    "fields": {
+      "title": "Карманные часы ZENTRA",
+      "description": "Старинные немецкие часы  ZENTRA с шатленом в комплекте.\r\n\r\nНа ходу в рабочем состоянии.\r\n\r\nСостоянии см. на фото.",
+      "image_url": "https://s2-gallery.aystatic.by/650/992/868/5038/5038868992_0.jpg",
+      "category": "Часы карманные",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:03:34.771Z",
+      "user": 3
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 7,
+    "fields": {
+      "title": "Часы карманные DOXA",
+      "description": "Состояние на фото, рабочие. С футляром для носки на руке.",
+      "image_url": "https://s4-gallery.aystatic.by/650/696/760/5038/5038760696_0.jpg",
+      "category": "Часы карманные",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:04:55.765Z",
+      "user": 3
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 8,
+    "fields": {
+      "title": "Бюст Суворова из бронзы",
+      "description": "Бюст Суворова. Материал: бронза на каменном основании.",
+      "image_url": "https://s2-gallery.aystatic.by/650/812/62/5038/5038062812_0.jpg",
+      "category": "Бюсты",
+      "condition": "Отличное",
+      "created_at": "2025-04-04T12:06:44.774Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 9,
+    "fields": {
+      "title": "Бюст фарфоровый Якуб Колас",
+      "description": "Бюст фарфоровый Якуб Колас ( Минский фарфоровый завод)",
+      "image_url": "https://s1-gallery.aystatic.by/650/450/648/5038/5038648450_0.jpg",
+      "category": "Бюсты",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:08:17.360Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 10,
+    "fields": {
+      "title": "Бюст Нефертити",
+      "description": "Оникс. Клееная голова.",
+      "image_url": "https://s5-gallery.aystatic.by/650/579/450/5022/5022450579_0.jpg",
+      "category": "Бюсты",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:09:37.225Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 11,
+    "fields": {
+      "title": "Статуэтка голубь гжель СССР",
+      "description": "Редкая целая без проблем\r\n\r\nРазмер на фото",
+      "image_url": "https://s5-gallery.aystatic.by/650/409/859/5038/5038859409_7.jpg",
+      "category": "Статуэтки",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:11:17.654Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 12,
+    "fields": {
+      "title": "Шкатулка на ножках Роза кобальт Германия винтаж",
+      "description": "Красивая винтажная шкатулка на ножках , диаметр 9 см , без сколов и трещин",
+      "image_url": "https://s5-gallery.aystatic.by/650/678/253/5037/5037253678_0.jpg",
+      "category": "Шкатулки",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:20:05.372Z",
+      "user": 5
+    }
+  },
+  {
+    "model": "ads.ad",
+    "pk": 13,
+    "fields": {
+      "title": "Шкатулка карболитовая СССР",
+      "description": "",
+      "image_url": "https://s5-gallery.aystatic.by/650/859/988/5034/5034988859_2.jpg",
+      "category": "Шкатулки",
+      "condition": "Хорошее",
+      "created_at": "2025-04-04T12:20:46.061Z",
+      "user": 5
+    }
+  },
+  {
+    "model": "ads.exchangeproposal",
+    "pk": 1,
+    "fields": {
+      "comment": "",
+      "status": "AWA",
+      "created_at": "2025-04-04T13:49:35.788Z",
+      "ad_sender": 13,
+      "ad_receiver": 1
+    }
+  }
+]

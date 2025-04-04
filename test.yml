@@ -1,0 +1,22 @@
+version: '3'
+
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    container_name: em_test_django
+    depends_on:
+      - postgres
+    env_file:
+      - ./.envs_example/.django
+      - ./.envs_example/.postgres
+    command: python manage.py test
+
+  postgres:
+    image: postgres:17.4
+    container_name: em_test_postgres
+    restart: always
+    env_file:
+      - ./.envs_example/.postgres

@@ -1,0 +1,92 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$zSxWKvXng1bOfqSZx1Xg8g$4jQZXiyzv4wQLDfD7wWakm4vTO2l1Y1TZKeoG8QlEkQ=",
+      "last_login": "2025-04-04T11:38:22.910Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@mail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-04T11:37:11.677Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$TZR2b6ENoFbp88IIIFt4XW$OThel9YldG76d/O/TdYKnrAJAjrPFRRMw5oegEHB4SM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Пользователь_Альфа",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-04T11:42:43Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$ojTvjEwUdH9soPKo0enmGf$Hyo5TPi4DzGdsQeP+t4opZHjB/kk9KWRuX+j70LteWQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Пользователь_Бета",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-04T11:43:02Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$RI5E7kgzB3kBxeQ2GOMGxL$zRKWfjnh/xyw+0yls3bnDIfO7A0ps8dr+OQJpUqjj2I=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Пользователь_Гамма",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-04T11:43:16Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$1npqo1vOaxdlor1Xr64gIO$mmPFEuAtwdDek48mjoqGRcBgtwEUdWvcpq4hsQMKzaI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Пользователь_Дельта",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-04-04T11:43:29.833Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

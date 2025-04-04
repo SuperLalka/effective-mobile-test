@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -o errexit
+set -o nounset
+
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata ./.fixtures/*
+
+exec /usr/local/bin/gunicorn config.asgi --bind 0.0.0.0:80 --chdir=/app -k uvicorn.workers.UvicornWorker

@@ -1,0 +1,33 @@
+version: '3'
+
+volumes:
+  em_postgres_data: {}
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    container_name: em_django
+    restart: always
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+    env_file:
+      - ./.envs_example/.django
+      - ./.envs_example/.postgres
+    ports:
+      - "80:80"
+    command: ["sh", "compose/django/start"]
+
+  postgres:
+    image: postgres:17.4
+    container_name: em_postgres
+    restart: always
+    volumes:
+      - em_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./.envs_example/.postgres
