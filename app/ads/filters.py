@@ -16,8 +16,8 @@ class AdsFilter(filters.FilterSet):
 
 
 class ExcProposalsFilter(filters.FilterSet):
-    ad_sender = filters.CharFilter(lookup_expr='icontains')
-    ad_receiver = filters.CharFilter(lookup_expr='icontains')
+    ad_sender = filters.CharFilter(field_name='ad_sender__id')
+    ad_receiver = filters.CharFilter(field_name='ad_receiver__id')
     status = filters.ChoiceFilter(choices=ExchangeProposal.StatusChoices.choices)
 
     class Meta:
